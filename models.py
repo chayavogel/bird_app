@@ -14,3 +14,4 @@ class Bird(db.Model, SerializerMixin):
 
     def __repr__(self):
         return f'<Bird {self.name} | Species: {self.species}>'
+    
